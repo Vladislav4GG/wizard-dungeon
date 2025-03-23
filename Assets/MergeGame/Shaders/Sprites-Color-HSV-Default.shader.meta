@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: de23d4d4fdb55b745a097062bf6894d9
+timeCreated: 1463224814
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Shaders/Sprites-Color-HSV-Default.shader
+  uploadId: 421145

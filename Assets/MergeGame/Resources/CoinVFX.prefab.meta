@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2dc9e0f8ae2834b9cb989aa155417d43
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Resources/CoinVFX.prefab
+  uploadId: 421145

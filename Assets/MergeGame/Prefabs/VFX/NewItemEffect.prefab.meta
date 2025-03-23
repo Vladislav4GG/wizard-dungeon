@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 66ab0d35afea37247b6c218935420c1c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Prefabs/VFX/NewItemEffect.prefab
+  uploadId: 421145

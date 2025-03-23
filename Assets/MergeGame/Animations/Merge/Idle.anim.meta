@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6559b633cd60fe147937fe7f5d94f64a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Animations/Merge/Idle.anim
+  uploadId: 421145

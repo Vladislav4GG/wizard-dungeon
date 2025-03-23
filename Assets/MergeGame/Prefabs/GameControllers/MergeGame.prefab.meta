@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7f404e407a05aa0439f08c7a5072976a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Prefabs/GameControllers/MergeGame.prefab
+  uploadId: 421145

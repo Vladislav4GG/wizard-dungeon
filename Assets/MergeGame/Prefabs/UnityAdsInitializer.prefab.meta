@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f908af7be9ae37b4d9d88530b19bfb9b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Prefabs/UnityAdsInitializer.prefab
+  uploadId: 421145

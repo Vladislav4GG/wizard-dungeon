@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8137596826c67c34b9cf426f5e0130d7
+timeCreated: 1528132267
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Prefabs/Bricks/Brick.prefab
+  uploadId: 421145

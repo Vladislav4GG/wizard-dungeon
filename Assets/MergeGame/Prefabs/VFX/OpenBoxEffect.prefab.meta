@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a544bc96f223cc14fa645e2bd9eb764e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Prefabs/VFX/OpenBoxEffect.prefab
+  uploadId: 421145

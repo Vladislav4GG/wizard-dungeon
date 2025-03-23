@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e5d1f137353aa8d48983ef9b419e0530
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Editor/CollectionEditor.cs
+  uploadId: 421145

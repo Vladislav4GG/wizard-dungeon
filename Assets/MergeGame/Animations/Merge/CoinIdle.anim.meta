@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61c1656853f368146ada104a9fc702d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Animations/Merge/CoinIdle.anim
+  uploadId: 421145

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: d09abe9036011f94a9e27ccc73cea0ac
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Shaders/Shaders/Multiply Color.shader
+  uploadId: 421145

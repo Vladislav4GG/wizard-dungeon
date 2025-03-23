@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8831537781ac9e84ca78a250ea6ae429
+timeCreated: 1463225861
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Shaders/Sprites-HSV-Diffuse.shader
+  uploadId: 421145

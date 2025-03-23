@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47d98c0d767ec714e93aa880e8d41e01
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157559
+  packageName: Animal Merge - Mobile Game Template
+  packageVersion: 1.0
+  assetPath: Assets/MergeGame/Animations/Merge/MergeObject.controller
+  uploadId: 421145
