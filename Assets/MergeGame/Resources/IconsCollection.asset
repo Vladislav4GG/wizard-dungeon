@@ -16,136 +16,102 @@ MonoBehaviour:
   - Icon: {fileID: 21300000, guid: d66c13cdf26ed484cb08d360f2a5e31f, type: 3}
     Title: Catterpillar
     RawPrice: 0
-    ID: 5
   - Icon: {fileID: 21300000, guid: aa68fa5de9af4d44fb55dc995ce4fcec, type: 3}
-    Title: Earth Worm
+    Title: Wow, you're so gay
     RawPrice: 100
-    ID: 2
   - Icon: {fileID: 21300000, guid: e85f5eb7efdcdd441ac3107d03043ee0, type: 3}
-    Title: Maggot
+    Title: "\u041F\u0435\u0434\u0438\u043A"
     RawPrice: 150
-    ID: 8
   - Icon: {fileID: 21300000, guid: 86d2f40f7f177064a86eb9d5808de035, type: 3}
     Title: Mite Alt
     RawPrice: 200
-    ID: 3
   - Icon: {fileID: 21300000, guid: 84beb09b1e462564fb49283fd328b60f, type: 3}
     Title: Spotted Bug
     RawPrice: 250
-    ID: 4
   - Icon: {fileID: 21300000, guid: 1e08a0a214f44d94aba8132b6e7e0331, type: 3}
     Title: Ant
     RawPrice: 300
-    ID: 1
   - Icon: {fileID: 21300000, guid: 90a4eae529a015c4491555f9beea6722, type: 3}
     Title: Spider Alt
     RawPrice: 350
-    ID: 6
   - Icon: {fileID: 21300000, guid: dd9c3b1b642ae364682c36d7f617bf3f, type: 3}
     Title: Dragonfly
     RawPrice: 400
-    ID: 7
   - Icon: {fileID: 21300000, guid: 349d22e569e227040ac0f70776f88172, type: 3}
     Title: Butterfly
     RawPrice: 450
-    ID: 10
   - Icon: {fileID: 21300000, guid: 075c4386ae19ac748b78a49b6e0036b8, type: 3}
     Title: Wasp Sting
     RawPrice: 500
-    ID: 9
   - Icon: {fileID: 21300000, guid: 041105cb49af87943ba0ce0bf6bb6fa9, type: 3}
     Title: Bat
     RawPrice: 550
-    ID: 11
   - Icon: {fileID: 21300000, guid: 4caf94b83ccce014b9e77fbcb880b769, type: 3}
     Title: Rat
     RawPrice: 600
-    ID: 13
   - Icon: {fileID: 21300000, guid: ef5c89aa65e0d0a45bb5c909f883053b, type: 3}
     Title: Cobra
     RawPrice: 650
-    ID: 12
   - Icon: {fileID: 21300000, guid: fa815584c20ba8b40b7597fe8bdc6c34, type: 3}
     Title: Frog
     RawPrice: 700
-    ID: 14
   - Icon: {fileID: 21300000, guid: c30f5db4dcc260b4481f619fcbe4f6d0, type: 3}
     Title: Crab
     RawPrice: 750
-    ID: 15
   - Icon: {fileID: 21300000, guid: d2df90c7bb3ecf34d817de9a2b3136a9, type: 3}
     Title: Sad Crab
     RawPrice: 800
-    ID: 16
   - Icon: {fileID: 21300000, guid: 009901288fba8784e914c1e8aaef330f, type: 3}
     Title: Shrimp
     RawPrice: 850
-    ID: 22
   - Icon: {fileID: 21300000, guid: 2f97fee49777d9e4590c28ae72007c1e, type: 3}
     Title: Ammonite
     RawPrice: 900
-    ID: 17
   - Icon: {fileID: 21300000, guid: 980a9e1c36b1f124eb46f8ffdc113a73, type: 3}
     Title: Snail
     RawPrice: 950
-    ID: 18
   - Icon: {fileID: 21300000, guid: 7c7612a9274baed4f81791a5febfade3, type: 3}
     Title: Sea Star
     RawPrice: 1000
-    ID: 21
   - Icon: {fileID: 21300000, guid: b5bb2f13f1de6814aac6759ad8261330, type: 3}
     Title: Oyster Pearl
     RawPrice: 1050
-    ID: 23
   - Icon: {fileID: 21300000, guid: 9f41711c5a5da99468e42e99375bbec1, type: 3}
     Title: Jellyfish
     RawPrice: 1100
-    ID: 26
   - Icon: {fileID: 21300000, guid: 6d093be7781ae2f43bbddddc3edb87b2, type: 3}
     Title: Seahorse
     RawPrice: 1150
-    ID: 27
   - Icon: {fileID: 21300000, guid: 04ed0a1d15c035e4bb7fee4485005417, type: 3}
     Title: Manta Ray
     RawPrice: 1200
-    ID: 28
   - Icon: {fileID: 21300000, guid: e93b7cb71168f2f4c996bbc187e2016e, type: 3}
     Title: New Born
     RawPrice: 1250
-    ID: 19
   - Icon: {fileID: 21300000, guid: 162c6853413fd5242b01670d176c1bd1, type: 3}
     Title: Duck
     RawPrice: 1300
-    ID: 20
   - Icon: {fileID: 21300000, guid: d6739cb1b97e9164099f787111952ebf, type: 3}
     Title: Pelican
     RawPrice: 1350
-    ID: 24
   - Icon: {fileID: 21300000, guid: 83c64e9916222e74590a7b5ac3ec0bde, type: 3}
     Title: Penpuin
     RawPrice: 1400
-    ID: 30
   - Icon: {fileID: 21300000, guid: d78a42da7eaf46f4ab3900e911ebbd1f, type: 3}
     Title: Owl
     RawPrice: 1500
-    ID: 25
   - Icon: {fileID: 21300000, guid: e3fd8db8975dc62428fbf53192c2f779, type: 3}
     Title: Tortoise
     RawPrice: 1600
-    ID: 31
   - Icon: {fileID: 21300000, guid: b5b19e9de1369694ebb0752c9f2faf9e, type: 3}
     Title: Pig
     RawPrice: 1650
-    ID: 32
   - Icon: {fileID: 21300000, guid: a972cfdf258c64646aa5859553eed6f5, type: 3}
     Title: Sheep
     RawPrice: 1700
-    ID: 33
   - Icon: {fileID: 21300000, guid: 7e33ab49492b71a46bfd534f2c82ec13, type: 3}
     Title: Camel
     RawPrice: 1800
-    ID: 29
   - Icon: {fileID: 21300000, guid: c6932deaa67783b468ef4928c25e8c17, type: 3}
     Title: Elephant
     RawPrice: 1850
-    ID: 34

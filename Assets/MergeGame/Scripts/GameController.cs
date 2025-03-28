@@ -7,49 +7,53 @@ using Random = UnityEngine.Random;
 
 public class GameController : MonoBehaviour
 {
-	class Brick
-	{
-		public readonly int index;
-		public bool exist;
-		public readonly GameObject emptyBrick;
-		public BrickController brick;
+    class Brick
+    {
+        public readonly int index;
+        public bool exist;
+        public readonly GameObject emptyBrick;
+        public BrickController brick;
 
-		public Brick(int index, GameObject emptyBrick)
-		{
-			this.index = index;
-			this.emptyBrick = emptyBrick;
-		}
-	}
-	
-	event Action OnLevelUp = delegate { };
+        public Brick(int index, GameObject emptyBrick)
+        {
+            this.index = index;
+            this.emptyBrick = emptyBrick;
+        }
+    }
+    
+    event Action OnLevelUp = delegate { };
 
-	[Range(0f, 1f)]
-	public float randomIconProbability;
-	[Range(0f, 2f)]
-	public float timerSpeed = 1f;
-	public GameObject emptyBrickPrefab;
-	public BrickController brickPrefab;
-	public Animator fieldAnimator;
+    [Range(0f, 1f)]
+    public float randomIconProbability;
+    [Range(0f, 2f)]
+    public float timerSpeed = 1f;
+    public GameObject emptyBrickPrefab;
+    public BrickController brickPrefab;
+    public Animator fieldAnimator;
 
-	[Header("UI")]
-	public RectTransform fieldTransform;
-	public Text levelText;
-	public Text experienceText;
-	public Text maxExperienceText;
-	public Text boxTimer;
-	public Image boxImage;
-	public GameObject fullText;
-	public Button boxButton;
+    [Header("UI")]
+    public RectTransform fieldTransform;
+    public Text levelText;
+    public Text experienceText;
+    public Text maxExperienceText;
+    public Text boxTimer;
+    public Image boxImage;
+    public GameObject fullText;
+    public Button boxButton;
+    public Image backgroundImage; // Новий UI елемент для фону
+    public Sprite[] backgrounds;  // Масив фонів (признач у інспекторі)
 
-	[Header("SFX")]
-	public PlaySfx clickSfx;
-	public PlaySfx landingSfx;
-	public PlaySfx mergingSfx;
+    [Header("SFX")]
+    public PlaySfx clickSfx;
+    public PlaySfx landingSfx;
+    public PlaySfx mergingSfx;
 
-	[Header("VFX")]
-	public ParticleSystem spawnEffect;
-	public ParticleSystem openEffect;
-	public ParticleSystem mergeEffect;
+    [Header("VFX")]
+    public ParticleSystem spawnEffect;
+    public ParticleSystem openEffect;
+    public ParticleSystem mergeEffect;
+
+    // Решта коду залишається без змін...
 
 	/// General //
 	int totalBricksCount = 6;
@@ -130,38 +134,72 @@ public class GameController : MonoBehaviour
 	
 	GameState gameState;
 
-	void Awake()
-	{
-		timer = spawnTime;
-		boxImage.fillAmount = 0;
-		boxButton.onClick.AddListener(OnBoxClick);
-		
-		gameState = UserProgress.Current.GetGameState<GameState>(name);
-		if (gameState == null)
-		{
-			gameState = new GameState();
-			UserProgress.Current.SetGameState(name, gameState);
-		}
-		UserProgress.Current.CurrentGameId = name;
+void Awake()
+{
+    timer = spawnTime;
+    boxImage.fillAmount = 0;
+    boxButton.onClick.AddListener(OnBoxClick);
+    
+    gameState = UserProgress.Current.GetGameState<GameState>(name);
+    if (gameState == null)
+    {
+        gameState = new GameState();
+        UserProgress.Current.SetGameState(name, gameState);
+    }
+    UserProgress.Current.CurrentGameId = name;
 
-		InitField();
+    InitField();
 
-		if (!LoadGame())
-		{
-			CurrentExperience = 0;
-			CurrentExperienceLevel = 0;
-			LevelMaxExperience = startingLevelsStats[0];
-			gameState.Score = 0;
-			UpdateLevelExperience();
-		}
-		
-		UpdateCoords();
-		OnLevelUp += UpdateFieldSize;
-		MergeController.Purchased += SpawnBrick;
-		MergeController.RewardUsed += SpawnBrick;
-		MergeController.Purchased += UpdateLevelExperience;
-		MergeController.RewardUsed += UpdateLevelExperience;
-	}
+    if (!LoadGame())
+    {
+        CurrentExperience = 0;
+        CurrentExperienceLevel = 0;
+        LevelMaxExperience = startingLevelsStats[0];
+        gameState.Score = 0;
+        UpdateLevelExperience();
+    }
+    
+    UpdateCoords();
+    OnLevelUp += UpdateFieldSize;
+    MergeController.Purchased += SpawnBrick;
+    MergeController.RewardUsed += SpawnBrick;
+    MergeController.Purchased += UpdateLevelExperience;
+    MergeController.RewardUsed += UpdateLevelExperience;
+
+    // Ініціалізація фону при старті
+    UpdateBackground(CurrentExperienceLevel);
+}
+
+// Новий метод для оновлення фону
+void UpdateBackground(int level)
+{
+    int backgroundIndex = level / 2; // Зміна фону кожні 2 рівні
+    if (backgroundIndex < backgrounds.Length)
+    {
+        backgroundImage.sprite = backgrounds[backgroundIndex];
+    }
+    else
+    {
+        // Якщо рівнів більше, ніж фонів, використовуємо останній фон
+        backgroundImage.sprite = backgrounds[backgrounds.Length - 1];
+    }
+}
+
+// Оновлення методу UpdateLevelExperience
+void UpdateLevelExperience(int value = 0, BrickType brickType = BrickType.Default)
+{
+    gameState.Score += value;
+    CurrentExperience += value;
+    if (CurrentExperience < LevelMaxExperience) return;
+    CurrentExperienceLevel++;
+    CurrentExperience = 0;
+    LevelMaxExperience = GetLevelMaxExperience();
+    OnLevelUp.Invoke();
+    SaveGame();
+    
+    // Оновлюємо фон при підвищенні рівня
+    UpdateBackground(CurrentExperienceLevel);
+}
 	
 	void Update()
 	{
@@ -466,18 +504,6 @@ public class GameController : MonoBehaviour
 		
 		Destroy(targetBrick.gameObject);
 		return true;
-	}
-
-	void UpdateLevelExperience(int value = 0, BrickType brickType = BrickType.Default)
-	{
-		gameState.Score += value;
-		CurrentExperience += value;
-		if (CurrentExperience < LevelMaxExperience) return;
-		CurrentExperienceLevel++;
-		CurrentExperience = 0;
-		LevelMaxExperience = GetLevelMaxExperience();
-		OnLevelUp.Invoke();
-		SaveGame();
 	}
 
 	int GetLevelMaxExperience()
