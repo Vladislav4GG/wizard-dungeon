@@ -42,6 +42,7 @@ public class GameController : MonoBehaviour
     public Button boxButton;
     public Image backgroundImage; // Новий UI елемент для фону
     public Sprite[] backgrounds;  // Масив фонів (признач у інспекторі)
+	public Sprite[] emptyBrickSprites; // Масив спрайтів для emptyBrick
 
     [Header("SFX")]
     public PlaySfx clickSfx;
@@ -168,6 +169,7 @@ void Awake()
 
     // Ініціалізація фону при старті
     UpdateBackground(CurrentExperienceLevel);
+	UpdateEmptyBrickSprites(); // Оновлюємо emptyBrick при підвищенні рівня
 }
 
 // Новий метод для оновлення фону
@@ -265,19 +267,83 @@ void UpdateLevelExperience(int value = 0, BrickType brickType = BrickType.Defaul
 		UserProgress.Current.SaveGameState(name);
 	}
 	
-	void InitField()
-	{
-		field = new Brick[fieldIndexes.GetLength(0), fieldIndexes.GetLength(1)];
+void UpdateEmptyBrickSprites()
+{
+    if (emptyBrickSprites == null || emptyBrickSprites.Length == 0)
+    {
+        Debug.LogWarning("Масив emptyBrickSprites порожній! Додайте спрайти в інспекторі.");
+        return;
+    }
 
-		for (int i = 0; i < fieldIndexes.GetLength(0); i++)
-		{
-			for (int j = 0; j < fieldIndexes.GetLength(1); j++)
-				field[i,j] = new Brick(fieldIndexes[i,j], BrickObject(emptyBrickPrefab, false));
-		}
-		
-		minCoords = new Vector2Int(field.GetLength(0), field.GetLength(1));
-		maxCoords = new Vector2Int(0, 0);
-	}
+    int backgroundIndex = CurrentExperienceLevel / 2;
+    Debug.Log($"backgroundIndex: {backgroundIndex}, emptyBrickSprites.Length: {emptyBrickSprites.Length}");
+
+    Sprite newSprite;
+
+    if (backgroundIndex < emptyBrickSprites.Length)
+    {
+        newSprite = emptyBrickSprites[backgroundIndex];
+    }
+    else
+    {
+        newSprite = emptyBrickSprites[emptyBrickSprites.Length - 1];
+    }
+
+    if (newSprite == null)
+    {
+        Debug.LogWarning("newSprite дорівнює null! Перевірте, чи всі елементи в emptyBrickSprites заповнені.");
+        return;
+    }
+
+    for (int i = 0; i < field.GetLength(0); i++)
+    {
+        for (int j = 0; j < field.GetLength(1); j++)
+        {
+            if (field[i, j].exist)
+            {
+                Image emptyBrickImage = field[i, j].emptyBrick.GetComponent<Image>();
+                if (emptyBrickImage != null)
+                {
+                    Debug.Log($"Оновлюємо спрайт для emptyBrick [{i},{j}] на {newSprite.name}");
+                    emptyBrickImage.sprite = newSprite;
+                }
+                else
+                {
+                    Debug.LogWarning($"emptyBrick [{i},{j}] не має компонента Image!");
+                }
+            }
+        }
+    }
+}
+void InitField()
+{
+    field = new Brick[fieldIndexes.GetLength(0), fieldIndexes.GetLength(1)];
+
+    for (int i = 0; i < fieldIndexes.GetLength(0); i++)
+    {
+        for (int j = 0; j < fieldIndexes.GetLength(1); j++)
+        {
+            GameObject emptyBrick = BrickObject(emptyBrickPrefab, false);
+            // Увімкнемо компонент Image
+            Image emptyBrickImage = emptyBrick.GetComponent<Image>();
+            if (emptyBrickImage != null)
+            {
+                emptyBrickImage.enabled = true;
+                Debug.Log($"Увімкнули Image для emptyBrick [{i},{j}]");
+            }
+            else
+            {
+                Debug.LogWarning($"emptyBrick [{i},{j}] не має компонента Image!");
+            }
+            field[i,j] = new Brick(fieldIndexes[i,j], emptyBrick);
+        }
+    }
+    
+    minCoords = new Vector2Int(field.GetLength(0), field.GetLength(1));
+    maxCoords = new Vector2Int(0, 0);
+
+    UpdateEmptyBrickSprites();
+}
 
 	void UpdateCoords()
 	{

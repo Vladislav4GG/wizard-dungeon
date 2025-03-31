@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: bc370a16f386645b8bc01fb521426325
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2998122271407110346
+    second: brick_night_0
+  - first:
+      213: 1249056813331249090
+    second: brick_night_1
+  - first:
+      213: 1465217913148534192
+    second: brick_night_2
+  - first:
+      213: -1306415285539918620
+    second: brick_night_3
+  - first:
+      213: -2113952838609544154
+    second: brick_night_4
+  - first:
+      213: -4964883464790455370
+    second: brick_night_5
+  - first:
+      213: 9181520055969537985
+    second: brick_night_6
+  - first:
+      213: -4851709944073017271
+    second: brick_night_7
+  - first:
+      213: -5033202047739498727
+    second: brick_night_8
+  - first:
+      213: 1915990874746415165
+    second: brick_night_9
+  - first:
+      213: 3341714774036365213
+    second: brick_night_10
+  - first:
+      213: -6239844318504184940
+    second: brick_night_11
+  - first:
+      213: -1925852772433396306
+    second: brick_night_12
+  - first:
+      213: 8828299935944280054
+    second: brick_night_13
+  - first:
+      213: -7101500624222591963
+    second: brick_night_14
+  - first:
+      213: 707190209320539798
+    second: brick_night_15
+  - first:
+      213: 3589735049678142490
+    second: brick_night_16
+  - first:
+      213: 3074642373956344557
+    second: brick_night_17
+  - first:
+      213: 2813173542753288134
+    second: brick_night_18
+  - first:
+      213: -5476881003692975937
+    second: brick_night_19
+  - first:
+      213: 4710017146350694298
+    second: brick_night_20
+  - first:
+      213: 1246993366398073247
+    second: brick_night_21
+  - first:
+      213: 3206513108669093524
+    second: brick_night_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brick_night_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 670
+        width: 475
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8786432587b9920800000000000000
+      internalID: 2998122271407110346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 866
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7f3eecd8a855110800000000000000
+      internalID: 1249056813331249090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 648
+        width: 515
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bde1cfcdef755410800000000000000
+      internalID: 1465217913148534192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 869
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eca040383eaedde0800000000000000
+      internalID: -1306415285539918620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 701
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cdfbee71bb9a2e0800000000000000
+      internalID: -2113952838609544154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 567
+        width: 297
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb44f93bc0391bb0800000000000000
+      internalID: -4964883464790455370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 461
+        width: 439
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf503a58df4b6f70800000000000000
+      internalID: 9181520055969537985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_7
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 296
+        width: 499
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9482c46e2834bacb0800000000000000
+      internalID: -4851709944073017271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_8
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 669
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fe7b59769762ab0800000000000000
+      internalID: -5033202047739498727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_9
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 672
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38662a9c87f69a10800000000000000
+      internalID: 1915990874746415165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 592
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fbc1fb1e7206e20800000000000000
+      internalID: 3341714774036365213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 371
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49391d507ae9769a0800000000000000
+      internalID: -6239844318504184940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_12
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 240
+        width: 298
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadf7696b1ff545e0800000000000000
+      internalID: -1925852772433396306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_13
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 395
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f70094740c648a70800000000000000
+      internalID: 8828299935944280054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_14
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 454
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5246ff0cec6627d90800000000000000
+      internalID: -7101500624222591963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 432
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6965f2f9fb170d900800000000000000
+      internalID: 707190209320539798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_16
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 390
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cb5d9220d41d130800000000000000
+      internalID: 3589735049678142490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 379
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea180fe2f25baa20800000000000000
+      internalID: 3074642373956344557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_18
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 243
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf365bae666a0720800000000000000
+      internalID: 2813173542753288134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 239
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb89bc1beb53ef3b0800000000000000
+      internalID: -5476881003692975937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 187
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f6b3ec3a75d5140800000000000000
+      internalID: 4710017146350694298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_21
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 216
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99fc612cd53e4110800000000000000
+      internalID: 1246993366398073247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_night_22
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 168
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496dad9fea2df7c20800000000000000
+      internalID: 3206513108669093524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brick_night_0: 2998122271407110346
+      brick_night_1: 1249056813331249090
+      brick_night_10: 3341714774036365213
+      brick_night_11: -6239844318504184940
+      brick_night_12: -1925852772433396306
+      brick_night_13: 8828299935944280054
+      brick_night_14: -7101500624222591963
+      brick_night_15: 707190209320539798
+      brick_night_16: 3589735049678142490
+      brick_night_17: 3074642373956344557
+      brick_night_18: 2813173542753288134
+      brick_night_19: -5476881003692975937
+      brick_night_2: 1465217913148534192
+      brick_night_20: 4710017146350694298
+      brick_night_21: 1246993366398073247
+      brick_night_22: 3206513108669093524
+      brick_night_3: -1306415285539918620
+      brick_night_4: -2113952838609544154
+      brick_night_5: -4964883464790455370
+      brick_night_6: 9181520055969537985
+      brick_night_7: -4851709944073017271
+      brick_night_8: -5033202047739498727
+      brick_night_9: 1915990874746415165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

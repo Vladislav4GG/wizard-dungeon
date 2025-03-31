@@ -5218,7 +5218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5188679, g: 0.3846384, b: 0.23251157, a: 1}
+  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31343,8 +31343,20 @@ MonoBehaviour:
   backgroundImage: {fileID: 1704971315}
   backgrounds:
   - {fileID: 1208040086343421634, guid: dffd66f40ba7044c79619d0d938c51b9, type: 3}
-  - {fileID: -6815437586108985893, guid: 7897baa23cf6646988a6555cb4a023c2, type: 3}
-  - {fileID: 1636318925241012259, guid: 17044bcef3e02489fbd63c2ad9af5010, type: 3}
+  - {fileID: 3337427645810508816, guid: 841b20468f4be4189bdee35d97a98de5, type: 3}
+  - {fileID: -3506796010499809244, guid: 3509f38037b494788b60a2d4022a71b8, type: 3}
+  - {fileID: 9035773460657428713, guid: 33d06ba7b1bfe447aa932105a3c76b21, type: 3}
+  - {fileID: -6891541253924508337, guid: c169619b366ac4fcc9dc5603c3ed84a8, type: 3}
+  - {fileID: 50966192408101147, guid: 13ed86a3f732d473e87a6b55a3d8a722, type: 3}
+  - {fileID: -7500063374786253779, guid: 8346b7450655a4c08bfdb013aa298172, type: 3}
+  emptyBrickSprites:
+  - {fileID: 21300000, guid: 8fe66b085107346a5a8d07e6bbce11a9, type: 3}
+  - {fileID: 21300000, guid: bc370a16f386645b8bc01fb521426325, type: 3}
+  - {fileID: 21300000, guid: 8fe66b085107346a5a8d07e6bbce11a9, type: 3}
+  - {fileID: 21300000, guid: 8fe66b085107346a5a8d07e6bbce11a9, type: 3}
+  - {fileID: 21300000, guid: 8fe66b085107346a5a8d07e6bbce11a9, type: 3}
+  - {fileID: 21300000, guid: 8fe66b085107346a5a8d07e6bbce11a9, type: 3}
+  - {fileID: 21300000, guid: 8fe66b085107346a5a8d07e6bbce11a9, type: 3}
   clickSfx: {fileID: 4731354124625714860}
   landingSfx: {fileID: 4319880324339240289}
   mergingSfx: {fileID: 7127821529736067656}
